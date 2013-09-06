@@ -1,0 +1,32 @@
+# Magento Connect 2 cache directories and files
+downloader/pearlib/cache/
+downloader/*.cfg
+downloader/.cache/
+
+# Magento runtime media files
+media/catalog/product/cache/
+media/tmp/
+media/js/
+media/css/
+media/.thumbs/
+media/catalog/category/
+media/catalog/product/
+# Magento runtime directories and files
+var/*
+!var/.htaccess
+!var/package/
+
+# Development IDE settings
+nbproject/
+.buildpath
+.project
+.settings
+*.sublime-workspace
+*.sublime-project
+
+# SASS
+.sass-cache
+skin/frontend/pump/default/assets/css/application.css
+
+# Misc
+.DS_Store
